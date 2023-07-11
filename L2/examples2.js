@@ -1,6 +1,5 @@
 function equation(value){
-    let x = value
-    return x;
+    return value;
 }
 console.log(equation(parseInt(`${1+1}`)));
 console.log(equation(parseInt(`${7*4-2}`)));
