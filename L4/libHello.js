@@ -8,11 +8,11 @@ function sayHello(){
 }
 
 function cube(x){
-    return x*x*x;
+    return x*x*x*x*x;
 }
 
-const add = (a,b) => a+b;
+const add = (a,b,c,d) => a+b+c+d;
 
-const status = true;
+const status = false;
 
 module.exports = {person, sayHello, cube, add, status}

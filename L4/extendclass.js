@@ -2,7 +2,7 @@
 class Media{
     constructor(info){
         this.publishDate = info.publishDate;
-        this.name = info.name;
+        this.name = info.name; 
     }
 }
 //child class
