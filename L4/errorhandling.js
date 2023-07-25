@@ -12,6 +12,7 @@ console.log("\n****Try..Catch****\n");
 try{
     criticalCode();
 }catch(ex){
+    //throw "An excrption thst id thrown every tine";
     console.log("Got an error!!!!!!!!!!!!!!");
     logError(ex);
 }
@@ -25,7 +26,6 @@ catch(ex){
     console.log("Got an erorr!!!!!!!!!!!!!!");
     logError(ex);
 }
-
 //Try..Catch..Finally
 console.log("\n****Try..Catch..Finally****\n");
 try{
